@@ -8,19 +8,20 @@ export function Skills(){
     <motion.div
         initial={{ x: 1000 }}
         animate={{ x: 0 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 2 }}
+        className='md:-ml-10'
     >
         <FancyText
           gradient={{ from: "#FF6F61", to: "#6B5B95", type: "linear" }}
           animateTo={{ from: "#6B5B95", to: "#FF6F61" }}
           animateDuration={2000}
         >
-        <h1 className='text-center text-sm m-2 p-2 font-bold md:text-xl md:ml-20'> Every skill you acquire doubles your odds of success - Scott Adams </h1>
+        <h1 className='text-center text-sm m-2 p-2 font-bold md:text-xl md:ml-30'> Every skill you acquire doubles your odds of success - Scott Adams </h1>
         </FancyText>
         <motion.div 
         initial={{y:-1000}}
         animate={{y:0}}
-        transition={{duration:1}}
+        transition={{duration:2}}
         className='mt-1 text-xl font-bold ml-2 p-2 md:text-2xl md:-mt-3'>
             <h1>Skills</h1>   
         </motion.div>
@@ -29,62 +30,62 @@ export function Skills(){
             className='text-xs mb-0.5 font-normal md:mb-1'
             content={<p>HTML</p>}
             position='top center'
-            trigger = {<motion.img whileHover={{scale:1.2}} transition={{duration:1}} className='w-10 h-10 md:w-15 md:h-15 grayscale hover:grayscale-0' src='./Icon/html.png'/>} 
+            trigger = {<motion.img whileHover={{scale:1.2}} transition={{duration:2}} className='w-10 h-10 md:w-15 md:h-15 grayscale hover:grayscale-0' src='./Icon/html.png'/>} 
             />
             <Popup
             className='text-xs mb-0.5 font-normal md:mb-1'
             content={<p>CSS</p>}
             position='top center'
-            trigger = {<motion.img whileHover={{scale:1.2}} transition={{duration:1}} className='w-10 h-10 md:w-15 md:h-15  grayscale hover:grayscale-0' src='./Icon/text.png'/>}
+            trigger = {<motion.img whileHover={{scale:1.2}} transition={{duration:2}} className='w-10 h-10 md:w-15 md:h-15  grayscale hover:grayscale-0' src='./Icon/text.png'/>}
             />
             <Popup
             className='text-xs mb-0.5 font-normal md:mb-1'
             content={<p>Java Script</p>}
             position='top center'
-            trigger = {<motion.img whileHover={{scale:1.2}} transition={{duration:1}} className='w-10 h-10 md:w-15 md:h-15  grayscale hover:grayscale-0' src='./Icon/js.png'/>}
+            trigger = {<motion.img whileHover={{scale:1.2}} transition={{duration:2}} className='w-10 h-10 md:w-15 md:h-15  grayscale hover:grayscale-0' src='./Icon/js.png'/>}
             />
             <Popup
             className='text-xs mb-0.5 font-normal md:mb-1'
             content={<p>Node</p>}
             position='top center'
-            trigger = {<motion.img whileHover={{scale:1.2}} transition={{duration:1}} className='w-10 h-10 md:w-15 md:h-15  grayscale hover:grayscale-0' src='./Icon/programing.png'/>}
+            trigger = {<motion.img whileHover={{scale:1.2}} transition={{duration:2}} className='w-10 h-10 md:w-15 md:h-15  grayscale hover:grayscale-0' src='./Icon/programing.png'/>}
             />
             <Popup
             className='text-xs mb-0.5 font-normal md:mb-1'
             content={<p>React</p>}
             position='top center'
-            trigger = {<motion.img whileHover={{scale:1.2}} transition={{duration:1}} className='w-10 h-10 md:w-15 md:h-15  grayscale hover:grayscale-0' src='./Icon/science.png'/>}
+            trigger = {<motion.img whileHover={{scale:1.2}} transition={{duration:2}} className='w-10 h-10 md:w-15 md:h-15  grayscale hover:grayscale-0' src='./Icon/science.png'/>}
             />
             <Popup
             className='text-xs mb-0.5 font-normal md:mb-1'
             content={<p>Python</p>}
             position='top center'
-            trigger = {<motion.img whileHover={{scale:1.2}} transition={{duration:1}} className='w-10 h-10 md:w-15 md:h-15  grayscale hover:grayscale-0' src='./Icon/python.png'/>}
+            trigger = {<motion.img whileHover={{scale:1.2}} transition={{duration:2}} className='w-10 h-10 md:w-15 md:h-15  grayscale hover:grayscale-0' src='./Icon/python.png'/>}
             />
             <Popup
             className='text-xs mb-0.5 font-normal md:mb-1'
             content={<p>SnowFlake</p>}
             position='top center'
-            trigger = {<motion.img whileHover={{scale:1.2}} transition={{duration:1}} className='w-10 h-10 md:w-15 md:h-15  grayscale hover:grayscale-0' src='./Icon/snowflake.png'/>}
+            trigger = {<motion.img whileHover={{scale:1.2}} transition={{duration:2}} className='w-10 h-10 md:w-15 md:h-15  grayscale hover:grayscale-0' src='./Icon/snowflake.png'/>}
             />
             <Popup
             className='text-xs mb-0.5 font-normal md:mb-1'
             content={<p>SQL</p>}
             position='top center'
-            trigger = {<motion.img whileHover={{scale:1.2}} transition={{duration:1}} className='w-10 h-10 md:w-15 md:h-15  grayscale hover:grayscale-0' src='./Icon/sql-server.png'/>}
+            trigger = {<motion.img whileHover={{scale:1.2}} transition={{duration:2}} className='w-10 h-10 md:w-15 md:h-15  grayscale hover:grayscale-0' src='./Icon/sql-server.png'/>}
             />
             <Popup
             className='text-xs mb-0.5 font-normal md:mb-1'
             content={<p>Microsoft Office</p>}
             position='top center'
-            trigger = {<motion.img whileHover={{scale:1.2}} transition={{duration:1}} className='w-10 h-10 md:w-15 md:h-15  grayscale hover:grayscale-0' src='./Icon/office.png'/>}
+            trigger = {<motion.img whileHover={{scale:1.2}} transition={{duration:2}} className='w-10 h-10 md:w-15 md:h-15  grayscale hover:grayscale-0' src='./Icon/office.png'/>}
             />
         </div>
         <div>
             <motion.div 
             initial={{y:-1000}}
             animate={{y:0}}
-            transition={{duration:1}}
+            transition={{duration:2}}
             >
             <h1 className='mt-3 text-xl font-bold ml-2 p-2 md:text-2xl'>Certification</h1>
             </motion.div>
@@ -93,7 +94,7 @@ export function Skills(){
                 <p className='text-center -mt-2 mb-2 font-bold'>Lean Six Sigma</p>
             <motion.img
                 whileHover={{ scale: 2 }}
-                transition={{ duration: 1 }} 
+                transition={{ duration: 2 }} 
                 position = "top center"
                 className='w-40 h-30 md:w-50 md:h-40'
                 src='/lss.jpg' 
@@ -103,7 +104,7 @@ export function Skills(){
             <p className='text-center -mt-2 mb-2 font-bold md:-mt-3'>Agile Project</p>
             <motion.img 
                 whileHover={{scale:2}}
-                transition={{duration:1}}
+                transition={{duration:2}}
                 className='w-40 h-30 md:w-50 md:h-40' 
                 src='/agile.jpg' 
                 alt='agile' />
