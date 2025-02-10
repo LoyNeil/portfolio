@@ -42,7 +42,7 @@ export function Home() {
         className="absolute top-1/4 left-1/2 transform -translate-x-1/4 -translate-y-1/40 text-xl">
         <div className="flex md:ml-15">
           <p className="text-xl -ml-15 mt-10 md:text-3xl md:mt-15">I am a</p>
-          <p className="text-xl mt-10.5 md:mt-15 md:text-4xl md:ml-3" style={style}>
+          <p className="text-xl mt-10.5 ml-1 md:mt-15 md:text-4xl md:ml-3" style={style}>
             {text}
           </p>
         </div>
