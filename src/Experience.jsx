@@ -46,7 +46,7 @@ export function Experience() {
             <div className="md:relative md:mt-10 md:-ml-105">
               {/* Horizontal Line */}
               <div className="md:absolute md:left-1/2 md:w-14 md:h-[2px] md:bg-gray-400 md:top-1/2 md:transform md:-translate-y-1/2"></div>
-              <div className="bg-[#5c54a0] rounded-lg p-2 mx-auto m-2 ml-2 mr-2 text-white md:w-90 md:h-30 md:ml-120">
+              <div className="bg-[#5c54a0] rounded-lg p-2 mx-auto m-2 ml-2 mr-2 w-83 text-white md:w-90 md:h-30 md:ml-120">
                 <div className="text-center">
                   <Popup
                     className="text-xs ml-2 mr-2 bg-[#523e71]"
@@ -97,7 +97,7 @@ export function Experience() {
             <div className="relative md:-mt-5 md:-ml-220">
               {/* Horizontal Line */}
               <div className="absolute left-1/2 w-13.5 md:ml-45 h-[2px] md:bg-gray-400 top-1/2 transform -translate-y-1/2"></div>
-              <div className="bg-[#fb5304] rounded-lg p-2 mx-auto m-2 ml-2 mr-2 text-white md:w-90 md:h-30">
+              <div className="bg-[#fb5304] rounded-lg p-2 mx-auto m-2 ml-2 mr-2 w-83 text-white md:w-90 md:h-30">
                 <div className="text-center">
                   <Popup
                     className="text-xs ml-2 mr-2 bg-[#fc8019]"
@@ -150,7 +150,7 @@ export function Experience() {
             <div className="relative md:-mt-5 md:-ml-105">
               {/* Horizontal Line */}
               <div className="absolute left-1/2 w-14 h-[2px] md:bg-gray-400 top-1/2 transform -translate-y-1/2"></div>
-              <div className="bg-[#fb5304] rounded-lg p-2 mx-auto m-2 ml-2 mr-2 text-white md:w-90 md:h-30 md:ml-120 md:-mt-4">
+              <div className="bg-[#fb5304] rounded-lg p-2 mx-auto m-2 ml-2 mr-2 w-83 text-white md:w-90 md:h-30 md:ml-120 md:-mt-4">
                 <div className="text-center">
                   <Popup
                     className="text-xs ml-2 mr-2 bg-[#fc8019]"
@@ -190,7 +190,7 @@ export function Experience() {
             <div className="relative md:-mt-5 md:-ml-220">
               {/* Horizontal Line */}
               <div className="absolute left-1/2 w-13.5 md:ml-45 h-[2px] md:bg-gray-400 top-1/2 transform -translate-y-1/2"></div>
-              <div className="bg-[#fb5304] rounded-lg p-2 mx-auto m-2 ml-2 mr-2 text-white md:w-90 md:h-30 md:text-white md:-mt-4">
+              <div className="bg-[#fb5304] rounded-lg p-2 mx-auto m-2 ml-2 mr-2 w-83 text-white md:w-90 md:h-30 md:text-white md:-mt-4">
                 <div className="text-center">
                   <Popup
                     className="text-xs ml-2 mr-2 bg-[#fc8019]"
@@ -235,7 +235,7 @@ export function Experience() {
             <div className="relative md:-mt-5 md:-ml-105">
               {/* Horizontal Line */}
               <div className="absolute left-1/2 w-14 h-[2px] md:bg-gray-400 top-1/2 transform -translate-y-1/2"></div>
-              <div className="bg-[#082b55] rounded-lg p-2 mx-auto m-2 ml-2 mr-2 text-white md:w-90 md:h-30 md:text-black md:ml-120 md:-mt-4">
+              <div className="bg-[#082b55] rounded-lg p-2 mx-auto m-2 ml-2 mr-2 text-white w-83 md:w-90 md:h-30 md:text-black md:ml-120 md:-mt-4">
                 <div className="text-center">
                   <Popup
                     className="text-xs ml-2 mr-2 bg-[#022d59]"
