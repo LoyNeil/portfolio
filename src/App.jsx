@@ -8,6 +8,7 @@ import { Experience } from "./Experience";
 import { ChatBot } from "./ChatBot";
 import { CrmEnhancement } from "./CrmEnhancement";
 import { Escalation } from "./Escalation";
+import { Aht } from "./Aht";
 
 function App() {
   const location = useLocation();
@@ -15,7 +16,7 @@ function App() {
   return (
     <div
       className={`grid grid-cols-1 md:grid md:grid-cols-2 place-items-center ${
-        location.pathname === "/home" || location.pathname === "/project" || location.pathname === "/project/chatbot" || location.pathname === "/project/crm" ? "md:overflow-hidden overflow-auto" : "overflow-auto"
+        location.pathname === "/home" || location.pathname === "/project" || location.pathname === "/project/chatbot" || location.pathname === "/project/crm" || location.pathname === "/project/escalation" || location.pathname === "/project/aht" ? "md:overflow-hidden overflow-auto" : "overflow-auto"
       }`}
     >
       <NavBar />
@@ -29,6 +30,7 @@ function App() {
           <Route path="/project/chatbot" element={<ChatBot />} />
           <Route path="/project/crm" element={<CrmEnhancement />} />
           <Route path="/project/escalation" element={<Escalation />} />
+          <Route path="/project/aht" element={<Aht />}/>
         </Routes>
       </div>
     </div>
