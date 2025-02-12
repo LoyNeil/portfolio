@@ -15,7 +15,7 @@ export function Project() {
         animateTo={{ from: "#6B5B95", to: "#FF6F61" }}
         animateDuration={2000}
       >
-        <h1 className="p-2 text-xs text-center md:text-xl font-semibold md:text-pretty md:max-w-[80%]">
+        <h1 className="p-2 text-xs text-center md:text-xl font-semibold md:text-pretty md:max-w-[80%] md:font-bold">
           Every project is an opportunity to learn, to figure out problems and
           challenges, to invent and reinvent - David Rockwell
         </h1>
@@ -56,7 +56,10 @@ export function Project() {
             </Link>
           </div>
           <div>
-            <p className="text-center mb-2 font-semibold p-2">AHT Reduction</p>
+            <p className="text-center mb-2 font-semibold p-2">
+              <Link to="aht">AHT Reduction</Link>
+            </p>
+            <Link to="aht">
             <motion.img
               initial={{ x: 1000 }}
               animate={{ x: 0 }}
@@ -65,10 +68,13 @@ export function Project() {
               src="/aht.jpg"
               alt="AHT Reduction"
             />
+            </Link>
           </div>
           <div>
             <p className="text-center mb-2 font-semibold p-2">
-              Escalation Reduction
+              <Link to="escalation">
+                Escalation Reduction
+              </Link>
             </p>
             <Link to="escalation">
             <motion.img
@@ -89,9 +95,12 @@ export function Project() {
         </h1>
         <div className="grid grid-cols-1 place-items-center md:flex md:gap-25 md:p-2 md:-ml-5 md:-mt-2">
           <div>
-            <p className="text-center mb-2 font-semibold p-2">
-              Quality Dashboard
-            </p>
+            <a href="https://qualitydashboard.netlify.app/" target="blank">
+              <p className="text-center mb-2 font-semibold p-2">
+                Quality Dashboard
+              </p>
+            </a>
+            <a href="https://qualitydashboard.netlify.app/" target="blank">
             <motion.img
               initial={{ x: 1000 }}
               animate={{ x: 0 }}
@@ -100,6 +109,7 @@ export function Project() {
               src="/quality.png"
               alt="quality"
             />
+            </a>
           </div>
           <div>
             <p className="text-center mb-2 font-semibold p-2">Portfolio</p>
@@ -113,7 +123,10 @@ export function Project() {
             />
           </div>
           <div>
-            <p className="text-center mb-2 font-semibold p-2">WeatherApp</p>
+            <a href="https://loyweatherapp.netlify.app/" target="blank">
+              <p className="text-center mb-2 font-semibold p-2">WeatherApp</p>
+            </a>
+            <a href="https://loyweatherapp.netlify.app/" target="_blank">
             <motion.img
               initial={{ x: 1000 }}
               animate={{ x: 0 }}
@@ -122,6 +135,7 @@ export function Project() {
               src="/weather.png"
               alt="weather"
             />
+            </a>
           </div>
         </div>
       </div>
